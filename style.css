@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    padding: 10px;
+    background-color: rgb(227, 219, 205);
+}
+
+.header{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    position: relative;
+    padding-left: 30%;
+    background-color: rgb(133, 98, 98);
+}
+
+.header:hover{
+    box-shadow: 3px 6px 10px rgb(77, 70, 70);
+    transition: box-shadow 0.4s ease-in;
+    transition: box-shadow 0.4s ease-out;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: transform 0.5s ease;
+}
+
+.profile img:hover{
+    transform: scale(1.1);
+}
+
+.profile h1{
+    margin-top: 15px;
+    color: wheat;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column; /* Vertical */
+    gap: 30px;
+    align-items: center;
+    padding-right: 40%;
+}
+
+.btn{
+    width: 120px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(133, 98, 98);
+    font-weight: bold;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: rgb(133, 98, 98);
+    color: wheat;
+    border: 2px solid white;
+}
+
+.section{
+    padding: 50px;
+    font-size: large;
+}
+
+#home{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 5%;
+    background-color: rgb(133, 98, 98);
+    color: white;
+}
+
+#home h1{
+    color: wheat;
+    position: relative;
+    text-align: center;
+}
+
+#home h2{
+    color: wheat;
+}
+
+#home p{
+    padding-left: 5%;
+}
+
+#home a{
+    text-decoration: none;
+    color: white;
+}
+
+#home a:hover{
+    color: wheat;
+}
+
+#home:hover{
+    box-shadow: 3px 6px 10px rgb(77, 70, 70);
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+.about{
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 5%;
+    background-color: rgb(133, 98, 98);
+    color: white;
+    font-size: large;
+}
+
+.about h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: wheat;
+}
+
+.about h2{
+    color: wheat;
+    margin-left: -25%;
+}
+
+.about h4{
+    margin-left: -15%;
+}
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+
+.education,
+.skills,
+.hobbies,
+.achievements{
+    text-align: center;
+}
+
+.skills ul,
+.hobbies ul,
+.achievements ul{
+    display: inline-block;
+    text-align: left;
+    margin-left: 10%;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.about:hover{
+    box-shadow: 3px 6px 10px rgb(77, 70, 70);
+    transition: box-shadow 0.4s ease-in-out;
+}
+.projects{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 50px;
+    background-color: rgb(133, 98, 98);
+    color: white;
+}
+.projects h2{
+    color: wheat;
+}
+.projects ul{
+    padding-left: 5%;
+}
+
+.projects:hover{
+    box-shadow: 3px 6px 10px rgb(77, 70, 70);
+    transition: box-shadow 0.4s ease-in-out;
+
+}
+
+.cert{
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 5%;
+    background-color: rgb(133, 98, 98);
+    color: white;
+    text-align: center;
+}
+
+.cert h2{
+    color: wheat;
+}
+
+.cert a{
+    text-decoration: none;
+    color: white;
+}
+
+.cert a:hover{
+    color: wheat;
+    font-weight: bold;
+}
+.cert:hover{
+    box-shadow: 3px 6px 10px rgb(77, 70, 70);
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+
+.fixedButton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 50px;
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    color: wheat;
+    background-color: rgb(133, 98, 98);
+    font-weight: bold;
+}
+footer{
+    margin-top: 15px;
+    height: 35px;
+    background-color: rgb(133, 98, 98);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
