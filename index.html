@@ -1,135 +1,1033 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Protfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-    <div class="header" id="header">
 
-        <div class="profile">
-            <img src="img.jpg" alt="Profile"><br>
-            <h1>Uggam Anil Kumar</h1>
+    <meta name="description"
+          content="Portfolio of Uggam Anil Kumar, Computer Science Engineering student at VIT-AP University.">
+
+    <title>Uggam Anil Kumar | Computer Science Engineering Student</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <span>U</span>AK
+        </a>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
         </div>
 
-        <div class="navbar">
-          <a href="#home"class="btn">Home</a>
-          <a href="#about"class="btn">About</a>
-          <a href="#projects"class="btn">Projects</a>
-          <a href="#contact" class="btn">Contact</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open navigation menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</nav>
+
+
+<!-- ================= HERO ================= -->
+
+<header class="hero" id="home">
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                COMPUTER SCIENCE ENGINEERING STUDENT
+            </p>
+
+            <h1>
+                Hi, I'm <span>Anil Kumar</span>
+            </h1>
+
+            <h2>
+                Building ideas with code.
+            </h2>
+
+            <p class="hero-description">
+                Dedicated Computer Science student at VIT-AP University
+                passionate about full-stack development, programming,
+                and solving real-world problems through technology.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn btn-primary">
+                    View My Work
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="mailto:uggamanil2005@gmail.com"
+                   aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/uggam-anil-kumar-884299293"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://github.com/AnilUggam"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="image-glow"></div>
+
+            <div class="profile-wrapper">
+                <img src="img.jpg"
+                     alt="Uggam Anil Kumar profile picture">
+            </div>
+
+            <div class="floating-card cgpa-card">
+
+                <div class="floating-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div>
+                    <strong>8.57</strong>
+                    <small>Current CGPA</small>
+                </div>
+
+            </div>
+
+            <div class="floating-card code-card">
+
+                <div class="floating-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div>
+                    <strong>Full Stack</strong>
+                    <small>Developer</small>
+                </div>
+
+            </div>
+
         </div>
 
     </div>
-        <div class="section" id="home">
-            <h1>Home</h1><br>
-            <h2>Career Objective</h2><br>
-            <p>To leverage my skills and knowledge in a dynamic organization where I can contribute to growth while continuously enhancing my professional capabilities. 
-                <br><br>Seeking opportunities that allow me to apply creativity, problem-solving, and dedication toward achieving organizational success.</p>
-            <br>
-            <h2>Short Introduction</h2><br>
-            <p>Hello I am Anil currently persuing B.Tech Computer Science Engineering from <a href="https://vitap.ac.in/"><b>VIT-AP</b></a> University. 
-                <br><br>I strive to contribute my skills effectively while continuously improving myself to achieve both personal and organizational success.
-            </p>
+
+</header>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section" id="about">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <p class="section-label">ABOUT ME</p>
+
+            <h2>
+                Passionate about technology,
+                <span>driven by learning.</span>
+            </h2>
+
         </div>
-        <div class="about" id="about">
-    <h1>About</h1>
+
 
         <div class="about-grid">
 
-            <div class="education">
-                <h2>Educational Qualifications</h2><br>
-                <table>
-                    <tr>
-                        <th>S.No</th>
-                        <th>Course</th>
-                        <th>Institute</th>
-                        <th>Year</th>
-                        <th>Percentage</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>B.Tech</td>
-                        <td>VIT-AP</td>
-                        <td>2027</td>
-                        <td>persuing</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Inter</td>
-                        <td>G.C.SAP</td>
-                        <td>2023</td>
-                        <td>86</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>10th</td>
-                        <td>Z.P.H.S</td>
-                        <td>2021</td>
-                        <td>85</td>
-                    </tr>
-                </table>
+            <div class="about-text">
+
+                <p>
+                    I am <strong>Uggam Anil Kumar</strong>, a Computer Science
+                    Engineering student currently pursuing my B.Tech at
+                    <strong>VIT-AP University</strong>.
+                </p>
+
+                <p>
+                    I have a strong interest in programming, web development,
+                    full-stack technologies, and data-driven problem solving.
+                    I enjoy transforming ideas into practical applications
+                    and continuously improving my technical skills.
+                </p>
+
+                <p>
+                    I was selected for the <strong>STARS Scheme at VIT-AP
+                    University</strong> in recognition of my academic
+                    performance. Along with technical knowledge, I value
+                    teamwork, leadership, responsibility, and completing
+                    projects on schedule.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    Let's connect
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
             </div>
 
-            <div class="skills">
-                <h2>Technical Skills</h2><br>
-                <h4>Beginner In..</h4>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Java</li>
-                    <li>Python</li>
-                </ul>
-            </div>
 
-            <div class="hobbies">
-                <h2>Hobbies</h2><br>
-                <ul>
-                    <li>Watching Movies</li>
-                    <li>Playing Outdoor Games</li>
-                </ul>
-            </div>
+            <div class="about-highlights">
 
-            <div class="achievements">
-                <h2>Achievements</h2><br>
-                <ul>
-                    <li>Academic Excellence</li>
-                    <li>Active Learner</li>
-                </ul>
+                <div class="highlight-card">
+
+                    <i class="fa-solid fa-laptop-code"></i>
+
+                    <div>
+                        <h3>Full-Stack Development</h3>
+                        <p>
+                            Building responsive and practical web applications.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="highlight-card">
+
+                    <i class="fa-solid fa-lightbulb"></i>
+
+                    <div>
+                        <h3>Problem Solving</h3>
+                        <p>
+                            Applying logical thinking to real-world problems.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="highlight-card">
+
+                    <i class="fa-solid fa-people-group"></i>
+
+                    <div>
+                        <h3>Team Leadership</h3>
+                        <p>
+                            Collaborating effectively and delivering work on time.
+                        </p>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
+
     </div>
-        <div class="projects" id="projects">
-            <h2>Projects</h2><br>
-            <ul>
-                <li>Personal Protfolio Website</li>
-            </ul>
-            <br>
-            <br>
-            <h2>Certifications</h2><br>
-            <ul>
-                <li>Mern Full Stack(Iam NEO)</li><br>
-                <li>Orcale Data Science Professional</li>
-            </ul>
-        </div>
-        <div class="cert" id="contact">
-            <h2>Contact Me</h2><br>
-            <p><b>Email :</b> <a href="mailto:uggamanil2005@gmail.com">uggamanil2005@gmail.com</a></p><br>
-            <p><b>Linkedin :</b> <a href="HTTPS://WWW.LINKEDIN.COM/IN/UGGAM-ANIL-KUMAR-884299293 ">UGGAM ANIL KUMAR</a></p><br>
-            <p><b>Git :</b> <a href="mailto:uggamanil2005@gmail.com">uggamanil2005@gmail.com</a></p>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section class="section dark-section" id="education">
+
+    <div class="section-container">
+
+        <div class="section-heading center">
+
+            <p class="section-label">EDUCATION</p>
+
+            <h2>
+                My academic <span>journey.</span>
+            </h2>
+
         </div>
 
-        <a href="#header">
-            <button  class="fixedButton" >^ TOP ^</button>
-        </a>
-        <footer>
-            <p>@ 2026 My Portfolio</p>
-        </footer>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-date">
+                    2023 — 2027
+                </div>
+
+                <div class="timeline-content">
+
+                    <div class="education-icon">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Vellore Institute of Technology - AP
+                        </h3>
+
+                        <h4>
+                            B.Tech in Computer Science and Engineering
+                        </h4>
+
+                        <p>
+                            School of Computer Science Engineering
+                        </p>
+
+                        <div class="education-badge">
+                            <i class="fa-solid fa-star"></i>
+                            Current CGPA: <strong>8.57 / 10.00</strong>
+                        </div>
+
+                        <div class="education-badge stars">
+                            <i class="fa-solid fa-award"></i>
+                            Selected for STARS Scheme
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-date">
+                    June 2021 — June 2023
+                </div>
+
+                <div class="timeline-content">
+
+                    <div class="education-icon">
+                        <i class="fa-solid fa-school"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Government Junior College, Sattenapalle
+                        </h3>
+
+                        <h4>
+                            Intermediate — MPC
+                        </h4>
+
+                        <p>
+                            Mathematics, Physics and Chemistry
+                        </p>
+
+                        <div class="education-badge">
+                            <i class="fa-solid fa-check"></i>
+                            Marks Scored: <strong>862 / 1000</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-date">
+                    May 2021
+                </div>
+
+                <div class="timeline-content">
+
+                    <div class="education-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Z.P High School, Rajupalem
+                        </h3>
+
+                        <h4>
+                            Secondary School Education — SSC
+                        </h4>
+
+                        <div class="education-badge">
+                            <i class="fa-solid fa-check"></i>
+                            Score: <strong>8.5 / 10 CGPA</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
-    
-   
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="section" id="skills">
+
+    <div class="section-container">
+
+        <div class="section-heading center">
+
+            <p class="section-label">TECHNICAL SKILLS</p>
+
+            <h2>
+                Technologies I <span>work with.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <h3>Programming</h3>
+
+                <div class="skill-tags">
+                    <span>Java</span>
+                    <span>Python</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+
+                <h3>Web Technologies</h3>
+
+                <div class="skill-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>MongoDB</span>
+                    <span>Express.js</span>
+                    <span>React</span>
+                    <span>Node.js</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <h3>Databases</h3>
+
+                <div class="skill-tags">
+                    <span>SQL</span>
+                    <span>Table Design</span>
+                    <span>Queries</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+
+                <h3>Core Strengths</h3>
+
+                <div class="skill-tags">
+                    <span>Team Leadership</span>
+                    <span>Problem Solving</span>
+                    <span>On-time Delivery</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section class="section dark-section" id="projects">
+
+    <div class="section-container">
+
+        <div class="section-heading center">
+
+            <p class="section-label">PROJECTS</p>
+
+            <h2>
+                Things I've <span>built.</span>
+            </h2>
+
+            <p class="heading-description">
+                A selection of academic and personal projects
+                developed using technology and problem-solving skills.
+            </p>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- Project 1 -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-file-lines"></i>
+                </div>
+
+                <h3>10PYQs</h3>
+
+                <p>
+                    Built and deployed a web application that helps
+                    students conveniently access previous year question
+                    papers for academic preparation.
+                </p>
+
+                <div class="project-tech">
+                    <span>Web Development</span>
+                    <span>Education</span>
+                </div>
+
+            </article>
+
+
+            <!-- Project 2 -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <h3>Theft Prevention Device</h3>
+
+                <p>
+                    Designed and built a hardware-based prototype focused
+                    on detecting and preventing unauthorized access or theft.
+                </p>
+
+                <div class="project-tech">
+                    <span>Hardware</span>
+                    <span>Prototype</span>
+                </div>
+
+            </article>
+
+
+            <!-- Project 3 -->
+
+            <article class="project-card featured">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    Developed a responsive personal portfolio website
+                    using HTML and CSS to showcase academic achievements,
+                    technical skills and projects.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Responsive Design</span>
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- Achievement -->
+
+        <div class="achievement">
+
+            <div class="achievement-icon">
+                <i class="fa-solid fa-award"></i>
+            </div>
+
+            <div>
+
+                <p class="section-label">
+                    ACHIEVEMENT
+                </p>
+
+                <h3>
+                    STARS Scheme Recognition
+                </h3>
+
+                <p>
+                    Selected for the STARS Scheme at VIT-AP University
+                    in recognition of exemplary academic performance.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section class="section" id="certifications">
+
+    <div class="section-container">
+
+        <div class="section-heading center">
+
+            <p class="section-label">CERTIFICATIONS</p>
+
+            <h2>
+                Continuous <span>learning.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="certifications-grid">
+
+            <div class="certification-card">
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+
+                <div>
+
+                    <p class="certificate-provider">
+                        IAMNEO PREP
+                    </p>
+
+                    <h3>
+                        MERN Full Stack Certification Program
+                    </h3>
+
+                    <p class="certificate-date">
+                        May — June 2025
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="certification-card">
+
+                <div class="certificate-icon">
+                    <i class="fa-brands fa-oracle"></i>
+                </div>
+
+                <div>
+
+                    <p class="certificate-provider">
+                        ORACLE
+                    </p>
+
+                    <h3>
+                        Oracle Cloud Infrastructure 2025
+                        Certified Data Science Professional
+                    </h3>
+
+                    <p class="certificate-date">
+                        Oracle Certification
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ADDITIONAL ================= -->
+
+<section class="section additional-section">
+
+    <div class="section-container">
+
+        <div class="additional-grid">
+
+            <div>
+
+                <p class="section-label">
+                    LANGUAGES
+                </p>
+
+                <h2>
+                    Communication
+                </h2>
+
+                <div class="language-list">
+
+                    <span>
+                        <i class="fa-solid fa-language"></i>
+                        Telugu — Fluent
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-language"></i>
+                        English — Fluent
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <p class="section-label">
+                    INTERESTS
+                </p>
+
+                <h2>
+                    Beyond technology
+                </h2>
+
+                <div class="interest-list">
+
+                    <span>
+                        <i class="fa-solid fa-film"></i>
+                        Documentaries
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-video"></i>
+                        Real-story films
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-arrow-up-right-dots"></i>
+                        Personal skill development
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-hand-holding-heart"></i>
+                        Social responsibility activities
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="section contact-section" id="contact">
+
+    <div class="section-container">
+
+        <div class="contact-box">
+
+            <div class="contact-content">
+
+                <p class="section-label">
+                    GET IN TOUCH
+                </p>
+
+                <h2>
+                    Let's build something
+                    <span>meaningful.</span>
+                </h2>
+
+                <p>
+                    I'm always interested in connecting with people,
+                    exploring opportunities, and discussing technology
+                    and innovative ideas.
+                </p>
+
+                <div class="contact-buttons">
+
+                    <a href="mailto:uggamanil2005@gmail.com"
+                       class="btn btn-primary">
+                        <i class="fa-solid fa-envelope"></i>
+                        Send Email
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/uggam-anil-kumar-884299293"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn btn-outline">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-details">
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <small>Email</small>
+                        <a href="mailto:uggamanil2005@gmail.com">
+                            uggamanil2005@gmail.com
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div>
+                        <small>Phone</small>
+                        <a href="tel:+918008697528">
+                            +91 8008697528
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <div>
+                        <small>Location</small>
+                        <p>
+                            Guntur, Andhra Pradesh, India
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+
+                    <div>
+                        <small>GitHub</small>
+                        <a href="https://github.com/AnilUggam"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            github.com/AnilUggam
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            <span>U</span>AK
+        </div>
+
+        <p>
+            Designed & developed by
+            <strong>Uggam Anil Kumar</strong>
+        </p>
+
+        <div class="footer-socials">
+
+            <a href="mailto:uggamanil2005@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/uggam-anil-kumar-884299293"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://github.com/AnilUggam"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Uggam Anil Kumar. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- Back to Top -->
+
+<a href="#home"
+   class="back-to-top"
+   aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+</a>
+
+
+<script>
+
+    const menuBtn = document.getElementById("menuBtn");
+    const navLinks = document.getElementById("navLinks");
+
+    menuBtn.addEventListener("click", () => {
+
+        navLinks.classList.toggle("active");
+
+        const icon = menuBtn.querySelector("i");
+
+        if (navLinks.classList.contains("active")) {
+            icon.classList.remove("fa-bars");
+            icon.classList.add("fa-xmark");
+        } else {
+            icon.classList.remove("fa-xmark");
+            icon.classList.add("fa-bars");
+        }
+
+    });
+
+
+    document.querySelectorAll(".nav-links a").forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            navLinks.classList.remove("active");
+
+            const icon = menuBtn.querySelector("i");
+
+            icon.classList.remove("fa-xmark");
+            icon.classList.add("fa-bars");
+
+        });
+
+    });
+
+
+    window.addEventListener("scroll", () => {
+
+        const backToTop = document.querySelector(".back-to-top");
+
+        if (window.scrollY > 500) {
+            backToTop.classList.add("show");
+        } else {
+            backToTop.classList.remove("show");
+        }
+
+    });
+
+</script>
+
 </body>
 </html>
+```
